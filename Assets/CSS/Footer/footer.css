@@ -1,0 +1,13 @@
+footer{
+   
+    height: 100vh;
+}
+
+.footer__title{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #2f5f56;
+    margin-top: 2rem;
+}
+

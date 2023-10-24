@@ -1,0 +1,16 @@
+.footer__social-media{
+    width: 100%;
+}
+
+.footer__social-media ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 1.5rem;
+    margin-top: 2.2rem;
+}
+
+.footer__social-media--link{
+    text-decoration: none;
+    list-style: none;
+}

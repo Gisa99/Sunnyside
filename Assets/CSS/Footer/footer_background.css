@@ -1,0 +1,50 @@
+.footer__background{
+    display: flex;
+    height: 70%;
+    width: 100%;
+}
+
+.footer__background--1{
+  background: url(../../../images/desktop/image-gallery-milkbottles.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 25%;
+}
+
+.footer__background--2{
+    background: url(../../../images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 25%;
+  }
+
+.footer__background--3{
+    background: url(../../../images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 25%;
+}
+  .footer__background--4{
+    background: url(../../../images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 25%;
+  }
+
+  @media(min-width: 0px) and (max-width: 768px){
+    .footer__background{
+      flex-wrap: wrap;
+      height: 100vh;
+    }
+    .footer__background--1,
+    .footer__background--2,
+    .footer__background--3,
+    .footer__background--4{
+      width: 50%;
+      height: 50%;
+    }
+  }

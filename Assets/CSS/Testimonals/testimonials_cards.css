@@ -1,0 +1,36 @@
+.testimonials-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+  
+}
+
+.testimonials-cards p{
+    color:#282d33;
+    width: 85%;
+    line-height: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+
+.testimonials-cards h4{
+    color:#282d33;
+    font-family: 'Fraunces', serif;
+    font-size: 1.2rem;
+}
+.client-information p{
+    color:#747575;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 300;
+}
+
+@media(min-width: 0px) and (max-width: 768px){
+    .testimonials-cards{
+        flex-direction: column;
+        height: 100vh;
+        margin: 2.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+.testimonials__background--1{
+    background: url(../../../images/image-emily.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+
+.testimonials__background--2{
+    background: url(../../../images/image-thomas.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+
+.testimonials__background--3{
+    background: url(../../../images/image-jennie.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}

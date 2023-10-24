@@ -1,0 +1,46 @@
+.first-board--background,
+.second-board--background,
+.third-board--background1,
+.third-board--background2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.first-board--background{
+    background: url(../../../../images/desktop/image-transform.jpg) ;
+    background-size: cover;
+    background-position: center  ;  
+}
+
+.second-board--background{
+    background: url(../../../../images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.third-board--background1{
+    background: url(../../../../images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: top center; 
+}
+.third-board--background2{
+    background: url(../../../../images/desktop/image-photography.jpg);
+    background-size: cover ;
+    background-position: top center;
+}
+
+@media(min-width: 0px) and (max-width: 768px){
+    .first-board--background,
+    .second-board--background,
+    .third-board--background1,
+    .third-board--background2{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .first-board--background{
+        margin-top: -4rem;
+    }
+
+}

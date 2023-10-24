@@ -1,0 +1,52 @@
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    width: 350px;
+}
+
+.header__menu-itens{
+    display: flex;
+    list-style: none;
+    column-gap: 2rem;
+}
+.header__menu-itens a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+.header__menu-itens a:hover{
+    font-weight: 600;
+}
+
+.header__menu button{
+    font-family: 'Fraunces', serif;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.header__menu button:hover{
+    background-color: #acdef8 ;
+    color: #fff;
+}
+
+.hamburguer{
+    display: none;
+}
+
+@media(min-width: 0) and (max-width: 768px){
+    .header__menu{
+        display: none;
+    }
+    .hamburguer{
+        display: block;
+    }
+}

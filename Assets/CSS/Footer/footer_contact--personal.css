@@ -1,0 +1,16 @@
+.footer__contact--personal{
+    color: #1f423c;
+    font-family: 'Barlow', sans-serif;
+}
+.footer__contact--personal a {
+    text-decoration: none;
+    color: #1f423c;
+    font-weight: 700;
+}
+
+@media(min-width: 0px) and (max-width: 768px){
+    .footer__contact--personal{
+        width: 70%;
+        text-align: center;
+    }
+}

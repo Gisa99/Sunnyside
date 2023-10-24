@@ -1,0 +1,19 @@
+.main__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+Section{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+@media(min-width: 0px) and (max-width: 768px){
+    Section{
+        height: 100vh;
+    }
+}

@@ -1,0 +1,147 @@
+.first-board, 
+.second-board, 
+.third-board{
+    display: flex;
+    height: 480px;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.board__text{
+    color:#282d33;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fraunces', serif;
+    row-gap: 1rem;
+    justify-content: center;
+    padding: 3.5rem;
+    text-align: left;
+    width: 50%;
+}
+.board__text--child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    align-self: flex-end;
+    height: 100%;
+    row-gap: 1rem;
+}
+.board__text h2{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 70%;
+}
+.board__text h3{
+    font-size: 1.5rem;
+}
+
+.board__text p{
+    color:#515355;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.board__text a {
+    color:#282d33;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.third-board--background1,
+.third-board--background2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.third-board--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+    row-gap: 1.3rem;
+    width: 70%;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.third-board--background1 h3,
+.third-board--background1 p{
+    color: hsl(167, 40%, 24%);
+    font-weight: 600;   
+}
+.third-board--background2 h3,
+.third-board--background2 p{
+    color: hsl(198, 62%, 26%);
+    font-weight: 600;
+}
+
+@media(min-width: 0px) and (max-width: 768px){
+    .first-board, 
+    .second-board,
+    .third-board{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+    }
+    .third-board{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+    }
+    .third-board--background1,
+    .third-board--background2{
+        align-items: flex-end;
+        height: 60vh;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .third-board--background2{
+     
+    }
+    .third-board--text{
+        row-gap: 1rem;
+        width: 100%;
+        font-weight: 500;
+    }
+   
+    
+    .board__text{
+        width: 100%;
+        order: 1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+     
+
+    }
+    .board__text--child{
+        width: 100%;
+        align-self: center;
+    }
+    .board__text h2{
+        width: 100%;
+    }
+    .board__text p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .board__text h3{
+        font-size: 2rem;
+    }
+    .board__text a {
+        font-size: 1.5rem; 
+    }
+   
+}

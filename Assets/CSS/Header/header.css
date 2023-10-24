@@ -1,0 +1,24 @@
+header{
+    background-color: #3ebfff ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem 1rem 2rem;
+    font-family: 'Barlow', sans-serif;
+    flex-wrap: wrap;
+    height: auto;
+
+    
+}
+
+.header__title a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media(min-width: 0) and (max-width: 768px){
+    header{
+       padding: 1rem 1.8rem;
+    }  
+}
