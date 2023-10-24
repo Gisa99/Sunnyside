@@ -18,7 +18,7 @@
     text-align: left;
     width: 50%;
 }
-.board__text--child{
+.board__text--box{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,26 +107,21 @@
         flex-direction: column;
         margin-bottom: 0px;
     }
-    .third-board--background2{
-     
-    }
     .third-board--text{
         row-gap: 1rem;
         width: 100%;
         font-weight: 500;
     }
    
-    
     .board__text{
         width: 100%;
         order: 1;
         text-align: center;
         display: flex;
         flex-direction: column;
-     
 
     }
-    .board__text--child{
+    .board__text--box{
         width: 100%;
         align-self: center;
     }
@@ -140,7 +135,7 @@
     .board__text h3{
         font-size: 2rem;
     }
-    .board__text a {
+    .board__text a{
         font-size: 1.5rem; 
     }
    
