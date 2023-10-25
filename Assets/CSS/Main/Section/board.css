@@ -2,9 +2,9 @@
 .second-board, 
 .third-board{
     display: flex;
-    height: 480px;
+    height: 500px;
     justify-content: center;
-    max-width: 1440px;
+    width: 100vw;
 }
 
 .board__text{

@@ -4,12 +4,13 @@ header{
     display: flex;
     flex-wrap: wrap;
     font-family: 'Barlow', sans-serif;
-    height: auto;   
+    height: 15vh;   
+    width: 100vw;
     justify-content: space-between;
     padding: 1rem 2.5rem 1rem 2rem;
 }
 
-.header__title a{
+.header__logo a{
     color: #fff;
     font-size: 2rem;
     text-decoration: none;
@@ -18,5 +19,13 @@ header{
 @media(min-width: 0) and (max-width: 768px){
     header{
        padding: 1rem 1.8rem;
+       height: 10vh;
+    }  
+}
+
+
+@media(min-width: 768px) and (max-width: 999px){
+    header{
+       height: 10vh;
     }  
 }

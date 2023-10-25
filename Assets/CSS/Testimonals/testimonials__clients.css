@@ -6,8 +6,7 @@
     height: 100%;
     padding: 1rem;
     row-gap: 2.5rem;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 @media(min-width: 0px) and (max-width: 768px){
